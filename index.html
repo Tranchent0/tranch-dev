@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tranchent — Développeur web &amp; logiciel</title>
+  <meta name="description" content="Portfolio de Tranchent, développeur débutant en HTML, CSS, JavaScript et Python : sites vitrines, extensions de logiciels et participation au projet NCrew.">
+  <meta name="author" content="Tranchent">
+  <meta name="theme-color" content="#faf9f5">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Tranchent">
+  <meta property="og:title" content="Tranchent — Développeur web &amp; logiciel">
+  <meta property="og:description" content="Développeur débutant : sites vitrines, extensions de logiciels et participation au projet NCrew.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Tranchent — Développeur web &amp; logiciel">
+  <meta name="twitter:description" content="Développeur débutant : sites vitrines, extensions de logiciels et participation au projet NCrew.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");window.setTimeout(function () { if (!document.documentElement.classList.contains("est-pret")) { document.documentElement.classList.remove("js"); } }, 3000);</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Tranchent",
+    "jobTitle": "Développeur web & logiciel",
+    "description": "Développeur débutant en HTML, CSS, JavaScript et Python.",
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "Python"]
+  }
+  </script>
+</head>
+<body>
+  <a class="lien-evitement" href="#contenu">Aller au contenu principal</a>
+
+  <header class="entete" data-entete>
+    <div class="conteneur entete__contenu">
+      <a class="marque" href="#accueil">
+        <svg class="marque__symbole" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect width="24" height="24" rx="7" fill="currentColor"></rect>
+          <path d="M7 8.5h10M7 12h7.5M7 15.5h4.5" fill="none" stroke="#faf9f5" stroke-width="1.6" stroke-linecap="round"></path>
+        </svg>
+        <span class="marque__texte" data-profil-nom>Tranchent</span>
+      </a>
+
+      <button class="bascule-menu" type="button" aria-expanded="false" aria-controls="navigation-principale" aria-label="Ouvrir le menu">
+        <span class="bascule-menu__barre"></span>
+        <span class="bascule-menu__barre"></span>
+      </button>
+
+      <nav class="navigation" id="navigation-principale" aria-label="Navigation principale">
+        <ul class="navigation__liste">
+          <li><a class="navigation__lien" href="#accueil">Accueil</a></li>
+          <li><a class="navigation__lien" href="#a-propos">À propos</a></li>
+          <li><a class="navigation__lien" href="#competences">Compétences</a></li>
+          <li><a class="navigation__lien" href="#projets">Projets</a></li>
+          <li><a class="navigation__lien" href="#ncrew">NCrew</a></li>
+          <li><a class="navigation__lien" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="titre-accueil">
+      <div class="hero__decor" aria-hidden="true">
+        <span class="hero__halo"></span>
+        <span class="hero__grille"></span>
+      </div>
+      <div class="conteneur hero__contenu">
+        <p class="hero__surtitre" data-profil-role>Développeur web &amp; logiciel — débutant</p>
+        <h1 class="hero__titre" id="titre-accueil"><span data-profil-nom>Tranchent</span></h1>
+        <p class="hero__accroche">Je construis des sites et des outils simples, soignés et utiles, et j’apprends à chaque projet.</p>
+        <p class="hero__texte">Je débute en développement, avec HTML, CSS, JavaScript et Python. J’aime les interfaces claires, le code lisible et les projets qui rendent vraiment service à quelqu’un.</p>
+        <div class="hero__actions">
+          <a class="bouton bouton--principal" href="#projets">Voir mes projets</a>
+          <a class="bouton bouton--secondaire" href="#contact">Me contacter</a>
+        </div>
+        <p class="hero__etat">
+          <span class="hero__point" aria-hidden="true"></span>
+          Apprentissage continu · ouvert aux collaborations, aux échanges et aux conseils
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="a-propos" aria-labelledby="titre-a-propos">
+      <div class="conteneur">
+        <header class="section__entete" data-revelation>
+          <p class="section__surtitre">01 — À propos</p>
+          <h2 class="section__titre" id="titre-a-propos">Un parcours qui commence, une vraie envie d’avancer.</h2>
+        </header>
+
+        <div class="a-propos__grille">
+          <div class="a-propos__texte" data-revelation>
+            <p>Je suis développeur débutant, et j’apprends par la pratique. Ce que je sais aujourd’hui, je l’ai appris en construisant : en me trompant, en cherchant pourquoi ça ne fonctionnait pas, puis en recommençant.</p>
+            <p>Mes projets sont personnels et modestes, et je le dis simplement : des extensions de logiciels, des sites web vitrines, et une participation au développement de NCrew, une messagerie privée conçue pour des communications chiffrées et sécurisées. Chacun m’a servi à consolider une brique : mieux structurer une page en HTML, écrire un CSS plus clair, comprendre le JavaScript du navigateur, automatiser une petite tâche en Python.</p>
+            <p>Je ne prétends pas être expert, je prétends être régulier. J’écris du code lisible, je relis ce que j’ai fait la veille, et je préfère poser une question plutôt que de deviner.</p>
+          </div>
+
+          <aside class="encadre" data-revelation data-delai="1">
+            <h3 class="encadre__titre">Ce que je cherche</h3>
+            <ul class="liste-simple">
+              <li>Apprendre de nouvelles technologies</li>
+              <li>Aider les autres avec ce que je sais déjà faire</li>
+              <li>Progresser en développement web et logiciel</li>
+              <li>Développer mes compétences en continu</li>
+            </ul>
+            <p class="encadre__note">Aucune expérience professionnelle ni diplôme à afficher ici : uniquement des projets personnels, du travail régulier et l’envie de faire mieux à chaque fois.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competences" aria-labelledby="titre-competences">
+      <div class="conteneur">
+        <header class="section__entete" data-revelation>
+          <p class="section__surtitre">02 — Compétences</p>
+          <h2 class="section__titre" id="titre-competences">Ce que j’utilise, sans surenchère.</h2>
+          <p class="section__texte">Pas de pourcentages ni de barres de progression : seulement les outils que j’emploie, et le niveau réel auquel j’en suis.</p>
+        </header>
+
+        <div class="competences" id="liste-competences"></div>
+
+        <p class="section__note" data-revelation>Les bases se consolident projet après projet. Cette section évolue au rythme de mes apprentissages.</p>
+      </div>
+    </section>
+
+    <section class="section" id="projets" aria-labelledby="titre-projets">
+      <div class="conteneur">
+        <header class="section__entete" data-revelation>
+          <p class="section__surtitre">03 — Projets</p>
+          <h2 class="section__titre" id="titre-projets">Des réalisations personnelles, menées de bout en bout.</h2>
+          <p class="section__texte">Des projets d’apprentissage, mais réels : pensés, codés, testés et améliorés. Certains sont en ligne, d’autres vivent encore sur mon ordinateur.</p>
+        </header>
+
+        <div class="projets" id="liste-projets"></div>
+
+        <p class="section__note" data-revelation>D’autres projets sont en cours. La liste s’enrichit au fil des semaines.</p>
+      </div>
+    </section>
+
+    <section class="ncrew" id="ncrew" aria-labelledby="titre-ncrew">
+      <div class="conteneur">
+        <header class="section__entete" data-revelation>
+          <p class="section__surtitre">04 — Projet collaboratif</p>
+          <h2 class="section__titre" id="titre-ncrew">NCrew, une messagerie privée pensée pour la confidentialité.</h2>
+        </header>
+
+        <div class="ncrew__grille">
+          <div class="ncrew__texte" data-revelation>
+            <p>NCrew est une messagerie privée conçue pour proposer des communications chiffrées et sécurisées. J’ai participé à son développement, aux côtés d’une équipe, sur une partie du projet.</p>
+            <p>Travailler sur NCrew m’a fait découvrir ce que demandent réellement les sujets de sécurité : réfléchir avant d’écrire, comprendre ce qui circule, et ne jamais considérer un détail comme anodin.</p>
+            <p>C’est aussi le projet qui m’a le plus appris sur le travail à plusieurs : lire du code écrit par d’autres, respecter les conventions d’une base existante, et avancer au même rythme que l’équipe.</p>
+          </div>
+
+          <aside class="ncrew__carte" data-revelation data-delai="1">
+            <h3 class="ncrew__carte-titre">Ma participation</h3>
+            <ul class="liste-simple liste-simple--claire">
+              <li>Participation au développement du projet</li>
+              <li>Découverte des enjeux de chiffrement et de sécurité</li>
+              <li>Travail en équipe sur une base de code existante</li>
+              <li>Apprentissage au contact direct du projet</li>
+            </ul>
+            <a class="bouton bouton--clair" id="lien-ncrew" hidden></a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="titre-contact">
+      <div class="conteneur">
+        <header class="section__entete" data-revelation>
+          <p class="section__surtitre">05 — Contact</p>
+          <h2 class="section__titre" id="titre-contact">Une question, un projet, un conseil à donner ?</h2>
+          <p class="section__texte">Je réponds volontiers, surtout quand c’est l’occasion d’apprendre quelque chose. Les retours sur mon travail sont les bienvenus, même les plus directs.</p>
+        </header>
+
+        <ul class="reseaux" id="liste-reseaux" data-revelation></ul>
+
+        <p class="section__note" data-revelation>GitHub et Discord restent les moyens les plus rapides de me joindre.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied__contenu">
+      <p class="pied__texte">© <span data-annee></span> <span data-profil-nom>Tranchent</span> — site codé à la main, en HTML, CSS et JavaScript.</p>
+      <nav class="pied__navigation" aria-label="Navigation de pied de page">
+        <a class="pied__lien" href="#accueil">Haut de page</a>
+        <a class="pied__lien" href="#projets">Projets</a>
+        <a class="pied__lien" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <p class="annonce" id="annonce" role="status" aria-live="polite"></p>
+
+  <template id="modele-competence">
+    <article class="competence">
+      <h3 class="competence__titre"></h3>
+      <p class="competence__texte"></p>
+      <ul class="competence__liste"></ul>
+    </article>
+  </template>
+
+  <template id="modele-puce">
+    <li class="puce">
+      <span class="puce__nom"></span>
+      <span class="puce__niveau"></span>
+    </li>
+  </template>
+
+  <template id="modele-projet">
+    <article class="projet">
+      <div class="projet__entete">
+        <span class="projet__numero"></span>
+        <span class="projet__statut"></span>
+      </div>
+      <h3 class="projet__titre"></h3>
+      <p class="projet__texte"></p>
+      <ul class="projet__technologies"></ul>
+      <a class="projet__lien">
+        <span class="projet__lien-texte"></span>
+        <span class="projet__lien-fleche" aria-hidden="true">→</span>
+      </a>
+    </article>
+  </template>
+
+  <template id="modele-reseau">
+    <li class="reseau">
+      <a class="reseau__lien" target="_blank" rel="noopener noreferrer">
+        <span class="reseau__infos">
+          <span class="reseau__nom"></span>
+          <span class="reseau__identifiant"></span>
+        </span>
+        <span class="reseau__fleche" aria-hidden="true">↗</span>
+      </a>
+    </li>
+  </template>
+
+  <template id="modele-reseau-copie">
+    <li class="reseau">
+      <span class="reseau__infos">
+        <span class="reseau__nom"></span>
+        <span class="reseau__identifiant"></span>
+      </span>
+      <button class="reseau__bouton" type="button">Copier</button>
+    </li>
+  </template>
+
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
